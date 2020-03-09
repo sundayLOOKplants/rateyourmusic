@@ -21,7 +21,7 @@ pip install git+git://github.com/fortes/rateyourmusic.git@master
 ```
 >>> import rateyourmusic
 >>> review = rateyourmusic.getAlbumReviewForRateYourMusicUrl('https://rateyourmusic.com/release/album/edan/beauty_and_the_beat/')
->>> print(review.rating)
+>>> print(review.average_rating)
 3.72
 ```
 
